@@ -21,13 +21,15 @@ with tabs[1]:
     with col1:
         st.subheader("🇦🇷 Argentina")
         st.write("**Pablo de León:** Especialista en hábitats marcianos.")
+         st.write("**Mono Juan:** primer pionero. conoce un poco de su historia escuchando el siguiente audio")
         # --- AQUÍ PONES TU AUDIO ---
         st.audio("unciencia_podcast_mono_juan.mp3", format="mp3")
         st.link_button("Noticias CONAE", "https://www.conae.gov.ar")
         
         st.subheader("🇨🇱 Chile")
-        st.write("**María Teresa Ruiz:** Investigadora")
-        st.link_button("Universidad de Chile", "https://www.uchile.cl")
+        st.write("**María Teresa Ruiz:** Investigadora astrónoma de la UCH, Máster y Doctora en Astrofísica de la Universidad de Princeton, siendo la primera mujer en estudiar astrofísica en dicha universidad. En 1997, ganó el Premio Nacional de Ciencias Exactas al descubrir la primera enana café conocida, convirtiéndose en la primera mujer del país en recibir dicho reconocimiento. En 2015, fue elegida unánimemente la primera presidenta de la Academia Chilena de Ciencias. En 1978, fue investigadora visitante del Instituto Goddard de Estudios Espaciales de la NASA
+")
+        st.link_button("Universidad de Chile", "https://www.conicyt.cl/mujeres-en-ciencia-y-tecnologia/mujeres-destacadas/premios-nacionales/maria-teresa-ruiz-gonzalez/")
         
         st.subheader("🇪🇨 Ecuador")
         st.write("**Observatorio de Quito:** Historia científica centenaria.")
