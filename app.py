@@ -51,7 +51,7 @@ with tabs[2]:
     st.write("Explorando el universo más allá de la vista.")
     
     st.subheader("NASA: Sonificación")
-    st.link_button("Escuchar el Universo", "https://chandra.harvard.edu/sound/")
+    st.link_button("Escuchar el Universo", "https://ciencia.nasa.gov/universo/escucha-el-universo-sonificacion-de-datos-y-documental-de-la-nasa/")
     
     st.subheader("Inclusión Táctil: El Dedoscopio")
     st.link_button("Descargar Manual del Dedoscopio", "https://especial.mineduc.cl/wp-content/uploads/sites/31/2023/02/Manual-para-la-inclusion-Dedoscopipo-Actualizado.pdf")
