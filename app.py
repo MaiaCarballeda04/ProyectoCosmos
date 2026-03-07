@@ -19,7 +19,7 @@ with tabs[1]:
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("🇦🇷 Argentina")
+        st.subheader("Argentina")
         st.write("**Pablo de León:** Especialista en hábitats marcianos.")
         st.write("""
         * **Especialidad:** Ingeniero aeroespacial.
@@ -31,8 +31,8 @@ with tabs[1]:
         st.audio("unciencia_podcast_mono_juan.mp3", format="mp3")
         st.link_button("Noticias CONAE", "https://www.conae.gov.ar")
         
-        st.subheader("🇨🇱 Chile")
-        st.subheader("🇨🇱 Chile: María Teresa Ruiz")
+
+        st.subheader("Chile: María Teresa Ruiz")
         st.write("""
         * **Formación:** Máster y Doctora en Astrofísica por Princeton, siendo la primera mujer en estudiar esta carrera allí.
         * **Logros:** En 1997, fue la primera mujer en ganar el Premio Nacional de Ciencias Exactas tras descubrir la primera enana café conocida.
@@ -41,7 +41,7 @@ with tabs[1]:
         """)
         st.link_button("Universidad de Chile", "https://www.conicyt.cl/mujeres-en-ciencia-y-tecnologia/mujeres-destacadas/premios-nacionales/maria-teresa-ruiz-gonzalez/")
         
-        st.subheader("🇪🇨 Ecuador")
+        st.subheader("Ecuador")
         st.write("""
         * **Historia:** Fundado en 1873, es uno de los observatorios más antiguos de América Latina.
         * **Ciencia:** Centro fundamental para la geodesia y el estudio de la atmósfera ecuatorial desde el centro del mundo.
@@ -49,21 +49,21 @@ with tabs[1]:
         st.link_button("Historia del OAQ", "https://oaq.epn.edu.ec")
 
     with col2:
-        st.subheader("🇲🇽 México:Rodolfo Neri Vela")
+        st.subheader("México:Rodolfo Neri Vela")
         st.write("""
         * **Hito:** Primer astronauta mexicano y latinoamericano en viajar al espacio.
         * **Misión:** Participó en la misión STS-61-B del Transbordador Atlantis (1985), realizando experimentos científicos fundamentales.
         """)
         st.link_button("Biografía", "https://www.gob.mx/mexico")
         
-        st.subheader("🇻🇪 Venezuela:Humberto Fernández-Morán")
+        st.subheader("Venezuela:Humberto Fernández-Morán")
         st.write("""
         * **Inventor:** Creador del bisturí de diamante y pionero en la microscopía electrónica.
         * **NASA:** Su tecnología de ultra-microtomía fue crítica para el análisis de muestras lunares en el Proyecto Apolo.
         """)
         st.link_button("Legado IVIC", "https://www.ivic.gob.ve")
         
-        st.subheader("🇵🇪 Perú: Marlon Delgado")
+        st.subheader("Perú: Marlon Delgado")
         st.write("""
         * **Rol:** Divulgador científico y motor de la educación espacial en Perú.
         * **Impacto:** Gran impulsor de la cultura astronómica y la participación juvenil en proyectos de la Agencia Espacial del Perú (CONIDA).
