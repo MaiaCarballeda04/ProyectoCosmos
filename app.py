@@ -116,7 +116,7 @@ with tabs[4]:
     
     Pero, como cuando arreglamos algo en casa y nos sale mal la primera vez, **aprendemos del error**. Hoy, gracias a las estaciones espaciales, fabricamos medicinas lejos de la gravedad para cuidar nuestra casa más importante: la Tierra.
     """)
-    st.header("🔭 Ciencia de Datos: Limpiando el ruido del universo"):
+    st.header("🔭 Ciencia de Datos: Limpiando el ruido del universo")
     st.write("""
     ¿Cómo sacamos fotos claras desde tan lejos? Imaginen una cancha de fútbol llena de gente gritando; si un amigo les quiere hablar, no se entiende nada por el ruido.
     
