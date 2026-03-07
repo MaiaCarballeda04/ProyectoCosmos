@@ -63,7 +63,14 @@ with tabs[1]:
         """)
         st.link_button("Legado IVIC", "https://www.ivic.gob.ve")
         
-        st.subheader("Perú: Marlon Delgado")
+        st.subheader("Perú")
+        st.write(""" Nataly Andrea Rojas Barnett""")
+        st.write("""
+        * **Perfil:** Investigadora y destacada académica en el ámbito de la ingeniería y la ciencia aplicada al espacio.
+        * **Logros:** Reconocida por su capacidad para liderar proyectos de investigación científica que vinculan la tecnología con soluciones espaciales.
+        * **Impacto:** Representa a la nueva generación de científicas peruanas que están abriendo camino en la exploración y el análisis de datos geoespaciales.
+        """)
+        st.write("""Marlon Delgado""")
         st.write("""
         * **Rol:** Divulgador científico y motor de la educación espacial en Perú.
         * **Impacto:** Gran impulsor de la cultura astronómica y la participación juvenil en proyectos de la Agencia Espacial del Perú (CONIDA).
