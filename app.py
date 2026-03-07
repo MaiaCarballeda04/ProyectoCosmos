@@ -1,54 +1,66 @@
 import streamlit as st
 
-# Configuración básica de la página
-st.set_page_config(page_title="Cosmos Inclusivo", layout="wide")
+# Configuración de la página
+st.set_page_config(page_title="Cosmos", layout="wide")
 
-# Título Principal
-st.title("🌌 Cosmos Inclusivo: Astronomía para todos")
-st.markdown("### Estrategia de divulgación científica accesible")
+st.title("🚀 Cosmos: La Astronomía donde el cielo no es limite, si no el comienzo")
+st.markdown("### Proyecto Bootcamp de Into Space")
 
-# Navegación con pestañas (más limpio para usuarios)
-tab1, tab2, tab3, tab4 = st.tabs(["Inicio", "Pioneros", "Sonificación (NASA)", "Derecho Espacial"])
+# Navegación por pestañas
+tabs = st.tabs(["Inicio", "Pioneros Regionales", "Sonificación y Táctil", "Derecho Espacial"])
 
-with tab1:
+with tabs[0]:
     st.header("Bienvenido a nuestra plataforma")
-    st.write("Este proyecto nace para democratizar la astronomía.")
-    st.info("Accesibilidad es nuestra prioridad: diseño compatible con lectores de pantalla para personas ciegas y descripciones textuales para personas sordas.")
+    st.write("Esta web busca democratizar la astronomía, eliminando barreras para personas con discapacidad visual y auditiva.")
+    st.info("La ciencia es un patrimonio universal de la humanidad.")
 
-with tab2:
-    st.header("Pioneros Regionales")
-    # Columna para organizar visualmente
-    c1, c2 = st.columns(2)
-    with c1:
-        st.write("🇦🇷 **Argentina:** Pablo de León (NASA Mars Suits)")
-        st.link_button("Noticias Argentina", "https://www.conae.gov.ar")
-        
-        st.write("🇨🇱 **Chile:** María Teresa Ruiz (Enanas café)")
-        st.link_button("Noticias Chile", "https://www.uchile.cl")
+with tabs[1]:
+    st.header("Pioneros de nuestra Región")
+    col1, col2 = st.columns(2)
     
-    with c2:
-        st.write("🇲🇽 **México:** Rodolfo Neri Vela (Primer Astronauta)")
-        st.link_button("Noticias México", "https://www.gob.mx/mexico")
+    with col1:
+        st.subheader("🇦🇷 Argentina")
+        st.write("**Pablo de León:** Especialista en hábitats marcianos.")
+        # --- AQUÍ PONES TU AUDIO ---
+        st.audio("unciencia_podcast_mono_juan.mp3", format="mp3")
+        st.link_button("Noticias CONAE", "https://www.conae.gov.ar")
         
-        st.write("🇪🇨 **Ecuador:** Obs. Astronómico de Quito")
-        st.link_button("Historia de Quito", "https://oaq.epn.edu.ec")
+        st.subheader("🇨🇱 Chile")
+        st.write("**María Teresa Ruiz:** Investigadora")
+        st.link_button("Universidad de Chile", "https://www.uchile.cl")
+        
+        st.subheader("🇪🇨 Ecuador")
+        st.write("**Observatorio de Quito:** Historia científica centenaria.")
+        st.link_button("Historia del OAQ", "https://oaq.epn.edu.ec")
 
-with tab3:
-    st.header("Sonificación Astronómica")
-    st.write("La NASA permite escuchar el universo mediante datos convertidos en sonido.")
-    st.link_button("Escuchar datos de la NASA", "https://chandra.harvard.edu/sound/")
-    st.warning("Nota para usuarios sordos: Los datos se representan mediante variaciones de frecuencia y amplitud que pueden ser visualizadas en gráficos de onda.")
+    with col2:
+        st.subheader("🇲🇽 México")
+        st.write("**Rodolfo Neri Vela:** Primer astronauta mexicano.")
+        st.link_button("Biografía", "https://www.gob.mx/mexico")
+        
+        st.subheader("🇻🇪 Venezuela")
+        st.write("**Humberto Fernández-Morán:** Inventor del bisturí de diamante.")
+        st.link_button("Legado IVIC", "https://www.ivic.gob.ve")
+        
+        st.subheader("🇵🇪 Perú")
+        st.write("**Marlon Delgado:** Impulsor de la educación espacial.")
+        st.link_button("CONIDA Perú", "https://www.gob.pe/conida")
 
-with tab4:
-    st.header("Derecho Espacial: La Ley del Cielo")
+with tabs[2]:
+    st.header("Accesibilidad: Sonido y Tacto")
+    st.write("Explorando el universo más allá de la vista.")
+    
+    st.subheader("NASA: Sonificación")
+    st.link_button("Escuchar el Universo", "https://chandra.harvard.edu/sound/")
+    
+    st.subheader("Inclusión Táctil: El Dedoscopio")
+    st.link_button("Descargar Manual del Dedoscopio", "https://especial.mineduc.cl/wp-content/uploads/sites/31/2023/02/Manual-para-la-inclusion-Dedoscopipo-Actualizado.pdf")
+    
+
+with tabs[3]:
+    st.header("⚖️ Derecho Espacial: La Ley del Cielo")
     st.markdown("""
-    1. **Espacio como patrimonio:** Ningún país es dueño de cuerpos celestes.
-    2. **Zona pacífica:** Prohibición estricta de armas nucleares y bases militares.
-    3. **Principio de responsabilidad:** Responsabilidad estatal por daños causados en órbita.
+    1. **Patrimonio común:** Ningún país es dueño de cuerpos celestes.
+    2. **Zona de paz:** Prohibido instalar armas nucleares o bases militares.
+    3. **Principio de responsabilidad:** Los Estados son responsables de los daños que causen sus objetos en órbita.
     """)
-    st.success("El espacio es un bien común de la humanidad.")
-
-# Barra lateral para créditos
-st.sidebar.markdown("---")
-st.sidebar.write("Proyecto: Astronomía Ciudadana")
-st.sidebar.write("Tecnología: Python & Streamlit")
