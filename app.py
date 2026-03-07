@@ -12,7 +12,7 @@ tabs = st.tabs(["Inicio", "Pioneros", "Sonificación y Táctil", "Derecho Espaci
 with tabs[0]:
     st.header("Bienvenido a nuestra plataforma")
     st.write("Esta web busca que la ciencia este al alcance de todos.")
-    st.info("Bienvenido Cosmonauta.")
+    st.info("Bienvenid@ Cosmonauta.")
 
 with tabs[1]:
     st.header("Pioneros de nuestra Región")
