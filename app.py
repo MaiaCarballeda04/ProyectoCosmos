@@ -39,7 +39,6 @@ with tabs[1]:
         * **Liderazgo:** En 2015, fue elegida unánimemente como la primera presidenta de la Academia Chilena de Ciencias.
         * **Experiencia:** En 1978, fue investigadora visitante en el Instituto Goddard (NASA).
         """)
-")
         st.link_button("Universidad de Chile", "https://www.conicyt.cl/mujeres-en-ciencia-y-tecnologia/mujeres-destacadas/premios-nacionales/maria-teresa-ruiz-gonzalez/")
         
         st.subheader("🇪🇨 Ecuador")
