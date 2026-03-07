@@ -3,7 +3,7 @@ import streamlit as st
 # Configuración de la página
 st.set_page_config(page_title="Cosmos", layout="wide")
 
-st.title("🚀 Cosmos: La Astronomía donde el cielo no es limite, si no el comienzo")
+st.title("🚀 Cosmos: Donde el cielo no es el límite, sino el comienzo")
 st.markdown("### Proyecto Bootcamp de Into Space")
 
 # Navegación por pestañas
