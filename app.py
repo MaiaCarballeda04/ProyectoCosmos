@@ -7,7 +7,7 @@ st.title("🚀 Cosmos: Donde el cielo no es el límite, sino el comienzo")
 st.markdown("### Proyecto Bootcamp de Into Space - Equipo 2")
 
 # Navegación por pestañas
-tabs = st.tabs(["Inicio", "Pioneros", "Sonificación y Táctil", "Derecho Espacial"])
+tabs = st.tabs(["Inicio", "Pioneros", "Sonificación y Táctil", "Derecho Espacial", "Astronomia"])
 
 with tabs[0]:
     st.header("Bienvenido a nuestra plataforma")
@@ -15,7 +15,7 @@ with tabs[0]:
     st.info("Bienvenid@ Cosmonauta.")
 
 with tabs[1]:
-    st.header("Pioneros de nuestra Región")
+    st.header("Pioneros")
     col1, col2 = st.columns(2)
     
     with col1:
@@ -96,3 +96,30 @@ with tabs[3]:
     2. **Zona de paz:** Prohibido instalar armas nucleares o bases militares.
     3. **Principio de responsabilidad:** Los Estados son responsables de los daños que causen sus objetos en órbita.
     """)
+with tabs[4]:
+    st.header("Ciencia para todos")
+    st.write("Aunque vivamos en realidades distintas, cuando miramos hacia arriba todos vemos el mismo sol, la misma luna y las mismas estrellas. Este proyecto explica por qué esas luces de arriba tienen todo que ver con nuestra vida acá abajo.")
+    st.info("Bienvenid@s a su primera mision espacial el Origen.")
+
+    st.header("De la roca a la vida")
+    st.write("Hace 4.600 millones de años, la Tierra era como una casa sin muebles. Los asteroides trajeron agua y aminoácidos. **Cada átomo de nuestro cuerpo tiene una historia que empezó en una piedra que viajó por el espacio.**")
+    st.divider()
+    st.header("Explorar es aprender")
+    st.write("Empezamos con el Sputnik 1 (tamaño de una pelota de voley). A veces las cosas salen mal, pero aprendemos del error. Hoy, las estaciones espaciales nos ayudan a fabricar medicinas y cultivar comida para vivir mejor en la Tierra.")
+    st.divider()
+    st.header("Ciencia de Datos: Limpiando el 'ruido'")
+    st.write("Como en una cancha de fútbol llena de gente gritando, el espacio tiene 'ruido'. La ciencia de datos es nuestro método para filtrar ese griterío y quedarnos solo con la 'voz' de la estrella. Pasamos de una mancha borrosa a una imagen nítida.")
+
+with st.expander("🚀 Explorando lo desconocido: Lecciones de la humanidad"):
+    st.write("""
+    Empezamos lanzando el Sputnik 1, un satélite del tamaño de una pelota de voley. Como un niño que aprende a caminar, nos hemos caído muchas veces: cohetes que fallan o equipos que se rompen.
+    
+    Pero, como cuando arreglamos algo en casa y nos sale mal la primera vez, **aprendemos del error**. Hoy, gracias a las estaciones espaciales, fabricamos medicinas lejos de la gravedad para cuidar nuestra casa más importante: la Tierra.
+    """)
+with st.expander("🔭 Ciencia de Datos: Limpiando el ruido del universo"):
+    st.write("""
+    ¿Cómo sacamos fotos claras desde tan lejos? Imaginen una cancha de fútbol llena de gente gritando; si un amigo les quiere hablar, no se entiende nada por el ruido.
+    
+    En el espacio pasa lo mismo: hay polvo y luz estorbando. La **ciencia de datos** es como limpiar ese griterío para quedarnos solo con la "voz" de la estrella o el agujero negro. Es pasar de la mancha borrosa a la imagen nítida.
+    """)
+    
