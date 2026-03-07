@@ -110,13 +110,13 @@ with tabs[4]:
     st.header("Ciencia de Datos: Limpiando el 'ruido'")
     st.write("Como en una cancha de fútbol llena de gente gritando, el espacio tiene 'ruido'. La ciencia de datos es nuestro método para filtrar ese griterío y quedarnos solo con la 'voz' de la estrella. Pasamos de una mancha borrosa a una imagen nítida.")
 
-with st.expander("🚀 Explorando lo desconocido: Lecciones de la humanidad"):
+    st.header("🚀 Explorando lo desconocido: Lecciones de la humanidad"):
     st.write("""
     Empezamos lanzando el Sputnik 1, un satélite del tamaño de una pelota de voley. Como un niño que aprende a caminar, nos hemos caído muchas veces: cohetes que fallan o equipos que se rompen.
     
     Pero, como cuando arreglamos algo en casa y nos sale mal la primera vez, **aprendemos del error**. Hoy, gracias a las estaciones espaciales, fabricamos medicinas lejos de la gravedad para cuidar nuestra casa más importante: la Tierra.
     """)
-with st.expander("🔭 Ciencia de Datos: Limpiando el ruido del universo"):
+    st.header("🔭 Ciencia de Datos: Limpiando el ruido del universo"):
     st.write("""
     ¿Cómo sacamos fotos claras desde tan lejos? Imaginen una cancha de fútbol llena de gente gritando; si un amigo les quiere hablar, no se entiende nada por el ruido.
     
