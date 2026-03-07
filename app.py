@@ -7,7 +7,7 @@ st.title("🚀 Cosmos: Donde el cielo no es el límite, sino el comienzo")
 st.markdown("### Proyecto Bootcamp de Into Space - Equipo 2")
 
 # Navegación por pestañas
-tabs = st.tabs(["Inicio", "Pioneros Regionales", "Sonificación y Táctil", "Derecho Espacial"])
+tabs = st.tabs(["Inicio", "Pioneros", "Sonificación y Táctil", "Derecho Espacial"])
 
 with tabs[0]:
     st.header("Bienvenido a nuestra plataforma")
