@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Cosmos", layout="wide")
 
 st.title("🚀 Cosmos: Donde el cielo no es el límite, sino el comienzo")
-st.markdown("### Proyecto Bootcamp de Into Space")
+st.markdown("### Proyecto Bootcamp de Into Space - Equipo 2")
 
 # Navegación por pestañas
 tabs = st.tabs(["Inicio", "Pioneros Regionales", "Sonificación y Táctil", "Derecho Espacial"])
@@ -49,14 +49,14 @@ with tabs[1]:
         st.link_button("Historia del OAQ", "https://oaq.epn.edu.ec")
 
     with col2:
-        st.subheader("México:Rodolfo Neri Vela")
+        st.subheader("México: Rodolfo Neri Vela")
         st.write("""
         * **Hito:** Primer astronauta mexicano y latinoamericano en viajar al espacio.
         * **Misión:** Participó en la misión STS-61-B del Transbordador Atlantis (1985), realizando experimentos científicos fundamentales.
         """)
         st.link_button("Biografía", "https://www.gob.mx/mexico")
         
-        st.subheader("Venezuela:Humberto Fernández-Morán")
+        st.subheader("Venezuela: Humberto Fernández-Morán")
         st.write("""
         * **Inventor:** Creador del bisturí de diamante y pionero en la microscopía electrónica.
         * **NASA:** Su tecnología de ultra-microtomía fue crítica para el análisis de muestras lunares en el Proyecto Apolo.
