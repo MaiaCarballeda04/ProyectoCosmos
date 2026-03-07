@@ -70,7 +70,7 @@ with tabs[1]:
         * **Logros:** Reconocida por su capacidad para liderar proyectos de investigación científica que vinculan la tecnología con soluciones espaciales.
         * **Impacto:** Representa a la nueva generación de científicas peruanas que están abriendo camino en la exploración y el análisis de datos geoespaciales.
         """)
-        st.link_button("https://www.unmsm.edu.pe/noticias-y-eventos/noticias/noticia-detalle/creyeron-en-mi-cuando-todo-recien-comenzaba-nataly-rojas-ingeniera-sanmarquina-que-busca-conquistar-el-espacio")
+        st.link_button("Leer noticia: Conquistando el espacio", "https://www.unmsm.edu.pe/noticias-y-eventos/noticias/noticia-detalle/creyeron-en-mi-cuando-todo-recien-comenzaba-nataly-rojas-ingeniera-sanmarquina-que-busca-conquistar-el-espacio")
         st.write("""Marlon Delgado""")
         st.write("""
         * **Rol:** Divulgador científico y motor de la educación espacial en Perú.
