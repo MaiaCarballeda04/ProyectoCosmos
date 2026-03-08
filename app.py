@@ -33,7 +33,7 @@ with tabs[1]:
         st.audio("unciencia_podcast_mono_juan.mp3", format="mp3")
         st.link_button("Mono Juan","https://unciencia.unc.edu.ar/podcasts/juan-el-primer-astronauta-argentino-2/#:~:text=El%2023%20de%20diciembre%20de,espacio%20utilizando%20tecnolog%C3%ADa%20aeroespacial%20propia")
         
-
+        st.divider()
         st.subheader("Chile: María Teresa Ruiz")
         st.image("Maria.jpg", width=200)
         st.write("""
@@ -43,7 +43,7 @@ with tabs[1]:
         * **Experiencia:** En 1978, fue investigadora visitante en el Instituto Goddard (NASA).
         """)
         st.link_button("Universidad de Chile", "https://www.conicyt.cl/mujeres-en-ciencia-y-tecnologia/mujeres-destacadas/premios-nacionales/maria-teresa-ruiz-gonzalez/")
-        
+        st.divider()
         st.subheader("Ecuador")
         st.image("Quito.jpg", width=200)
         st.write("""
@@ -60,7 +60,7 @@ with tabs[1]:
         * **Misión:** Participó en la misión STS-61-B del Transbordador Atlantis (1985), realizando experimentos científicos fundamentales.
         """)
         st.link_button("Biografía", "https://www.gob.mx/mexico")
-        
+        st.divider()
         st.subheader("Venezuela: Humberto Fernández-Morán")
         st.image("Humberto.jpg", width=200)
         st.write("""
@@ -68,7 +68,7 @@ with tabs[1]:
         * **NASA:** Su tecnología de ultra-microtomía fue crítica para el análisis de muestras lunares en el Proyecto Apolo.
         """)
         st.link_button("Legado IVIC", "https://www.ivic.gob.ve")
-        
+        st.divider()
         st.subheader("Perú")
         st.write(""" Nataly Andrea Rojas Barnett""")
         st.image("Nataly.jpg", width=200)
