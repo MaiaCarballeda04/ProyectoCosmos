@@ -110,7 +110,7 @@ with tabs[4]:
     st.write("Hace 4.600 millones de años, la Tierra era como una casa sin muebles. Los asteroides trajeron agua y aminoácidos. **Cada átomo de nuestro cuerpo tiene una historia que empezó en una piedra que viajó por el espacio.**")
     st.divider()
     st.header("🔎Explorar es aprender")
-    st.write("Empezamos con el Sputnik 1 (tamaño de una pelota de voley). A veces las cosas salen mal, pero aprendemos del error. Hoy, las estaciones espaciales nos ayudan a fabricar medicinas y cultivar comida para vivir mejor en la Tierra.")
+    st.write("Empezamos con el Sputnik 1. A veces las cosas salen mal, pero aprendemos del error. Hoy, las estaciones espaciales nos ayudan a fabricar medicinas y cultivar comida para vivir mejor en la Tierra.")
     st.divider()
     st.header("💯Ciencia de Datos: Limpiando el 'ruido'")
     st.write("Como en una cancha de fútbol llena de gente gritando, el espacio tiene 'ruido'. La ciencia de datos es nuestro método para filtrar ese griterío y quedarnos solo con la 'voz' de la estrella. Pasamos de una mancha borrosa a una imagen nítida.")
