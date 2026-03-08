@@ -32,6 +32,7 @@ with tabs[1]:
         
 
         st.subheader("Chile: María Teresa Ruiz")
+        st.image("Maria.jpg", width=200)
         st.write("""
         * **Formación:** Máster y Doctora en Astrofísica por Princeton, siendo la primera mujer en estudiar esta carrera allí.
         * **Logros:** En 1997, fue la primera mujer en ganar el Premio Nacional de Ciencias Exactas tras descubrir la primera enana café conocida.
@@ -49,6 +50,7 @@ with tabs[1]:
 
     with col2:
         st.subheader("México: Rodolfo Neri Vela")
+        st.image("Rodolfo.jpg", width=200)
         st.write("""
         * **Hito:** Primer astronauta mexicano y latinoamericano en viajar al espacio.
         * **Misión:** Participó en la misión STS-61-B del Transbordador Atlantis (1985), realizando experimentos científicos fundamentales.
@@ -56,6 +58,7 @@ with tabs[1]:
         st.link_button("Biografía", "https://www.gob.mx/mexico")
         
         st.subheader("Venezuela: Humberto Fernández-Morán")
+        st.image("Humberto.jpg", width=200)
         st.write("""
         * **Inventor:** Creador del bisturí de diamante y pionero en la microscopía electrónica.
         * **NASA:** Su tecnología de ultra-microtomía fue crítica para el análisis de muestras lunares en el Proyecto Apolo.
@@ -64,6 +67,7 @@ with tabs[1]:
         
         st.subheader("Perú")
         st.write(""" Nataly Andrea Rojas Barnett""")
+        st.image("Nataly.jpg", width=200)
         st.write("""
         * **Perfil:** Investigadora y destacada académica en el ámbito de la ingeniería y la ciencia aplicada al espacio.
         * **Logros:** Reconocida por su capacidad para liderar proyectos de investigación científica que vinculan la tecnología con soluciones espaciales.
