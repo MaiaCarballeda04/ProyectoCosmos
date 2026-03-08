@@ -27,7 +27,6 @@ with tabs[1]:
         * **Impacto:** Líder del Laboratorio de Vuelo Espacial Humano de la Universidad de Dakota del Norte.
         """)
         st.write("**Mono Juan:** primer pionero. conoce un poco de su historia escuchando el siguiente audio de La Universidad Nacional de Cordoba")
-        # --- AQUÍ PONES TU AUDIO ---
         st.audio("unciencia_podcast_mono_juan.mp3", format="mp3")
         st.link_button("Noticias CONAE", "https://www.conae.gov.ar")
         
@@ -83,18 +82,24 @@ with tabs[2]:
     st.write("Explorando el universo más allá de la vista.")
     
     st.subheader("NASA: Sonificación")
+    st.write("""Usamos la sonificación, convertimos los datos de los telescopios en sonidos, 
+    gráficos que se mueven al ritmo de los datos, para que se pueda ver el pulso del universo
+    """)
     st.link_button("Escuchar el Universo", "https://ciencia.nasa.gov/universo/escucha-el-universo-sonificacion-de-datos-y-documental-de-la-nasa/")
     
     st.subheader("Inclusión Táctil: El Dedoscopio")
+    st.write("""Usamos este libro, convertimos los datos de los telescopios en algo tactil, 
+    un asteroide pasando frente a una estrella al alcance de tu mano, el universo a veces esta cerca!
+    además, usamos modelos táctiles (maquetas con texturas) para que cualquiera pueda tocar cómo es la forma de un asteroide.""")
     st.link_button("Descargar Manual del Dedoscopio", "https://especial.mineduc.cl/wp-content/uploads/sites/31/2023/02/Manual-para-la-inclusion-Dedoscopipo-Actualizado.pdf")
     
 
 with tabs[3]:
     st.header("⚖️ Derecho Espacial: La Ley del Cielo")
     st.markdown("""
-    1. **Patrimonio común:** Ningún país es dueño de cuerpos celestes.
-    2. **Zona de paz:** Prohibido instalar armas nucleares o bases militares.
-    3. **Principio de responsabilidad:** Los Estados son responsables de los daños que causen sus objetos en órbita.
+    1. **Patrimonio común:** Ningún país es dueño de cuerpos celestes. El espacio es 'patrimonio de la humanidad' nadie, ningún país y ninguna empresa, puede decir 'esto es mío', es de todos, igual que el aire que respiramos.
+    2. **Zona de paz:** Prohibido instalar armas nucleares o bases militares. no para pelear,fue un acuerdo clave para que todos los países se sienten a charlar en paz.
+    3. **Principio de responsabilidad:** Los Estados son responsables de los daños que causen sus objetos en órbita. esto sirve para que nadie ande tirando basura espacial o haciendo maniobras arriesgadas sin hacerse cargo de las consecuencias.
     """)
 with tabs[4]:
     st.header("Ciencia para todos")
@@ -112,7 +117,7 @@ with tabs[4]:
     st.divider()
     st.header("🚀 Explorando lo desconocido: Lecciones de la humanidad")
     st.write("""
-    Empezamos lanzando el Sputnik 1, un satélite del tamaño de una pelota de voley. Como un niño que aprende a caminar, nos hemos caído muchas veces: cohetes que fallan o equipos que se rompen.
+    Empezamos lanzando el de un satelite de origen ruso llamado "Sputnik 1", un satélite del tamaño de una pelota de voley. Como un niño que aprende a caminar, nos hemos caído muchas veces: cohetes que fallan o equipos que se rompen.
     
     Pero, como cuando arreglamos algo en casa y nos sale mal la primera vez, **aprendemos del error**. Hoy, gracias a las estaciones espaciales, fabricamos medicinas lejos de la gravedad para cuidar nuestra casa más importante: la Tierra.
     """)
