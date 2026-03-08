@@ -162,7 +162,7 @@ with tabs[5]:
         st.divider() 
         st.subheader("India: Kalpana Chawla")
         st.write("Primera mujer de origen indio en el espacio. Su valentía y su compromiso con la ciencia continúan inspirando a nuevas generaciones de ingenieros en todo el mundo.")
-
+        st.divider()
     with col2:
         st.subheader("Argentina: Noel de Castro")
         st.write("Referente argentina en el desarrollo espacial, clave en la formación de nuevas visiones científicas.")
@@ -184,6 +184,6 @@ with tabs[5]:
         st.divider()
         st.subheader("EEUU: Katherine Johnson")
         st.write("Matemática cuya precisión hizo posibles los vuelos tripulados del Apolo.")
-
+        st.divider()
     st.info("Estas mujeres demuestran que el espacio no tiene género, solo necesita talento y determinación.")
     
