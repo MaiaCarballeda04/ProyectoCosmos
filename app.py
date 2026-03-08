@@ -147,41 +147,41 @@ with tabs[5]:
     with col1:
         st.subheader("Chile: María Teresa Ruiz")
         st.write("Primera mujer en recibir el Premio Nacional de Ciencias Exactas en Chile. Descubrió la primera enana café.")
-        
+        st.divider()
         st.subheader("Perú: Nataly Rojas Barnett")
         st.write("Ingeniera sanmarquina, referente actual en ciencia espacial e investigación aeroespacial.")
-
+        st.divider()
         st.subheader("México: Silvia Torres-Peimbert")
         st.write("Primera mujer doctora en Astronomía en México y ex-Presidenta de la Unión Astronómica Internacional.")
-        
+        st.divider()
         st.subheader("Rusia: Valentina Tereshkova")
         st.write("La primera mujer en viajar al espacio (1963) a sus 26 años.")
-        
+        st.divider()
         st.subheader("EEUU: Margaret Hamilton")
         st.write("Directora de software del Apolo 11. Su código evitó que la misión lunar fallara.")
-
+        st.divider() 
         st.subheader("India: Kalpana Chawla")
         st.write("Primera mujer de origen indio en el espacio. Su valentía y su compromiso con la ciencia continúan inspirando a nuevas generaciones de ingenieros en todo el mundo.")
 
     with col2:
         st.subheader("Argentina: Noel de Castro")
         st.write("Referente argentina en el desarrollo espacial, clave en la formación de nuevas visiones científicas.")
-
+        st.divider()
         st.subheader("Argentina: Adela E. Ringuelet")
         st.write("Astrónoma pionera y cofundadora de la Asociación Argentina de Astronomía. Impulsó estudios sobre estrellas peculiares.")
-        
+        st.divider()
         st.subheader("Colombia: Adriana Ocampo")
         st.write("Directora de Ciencia de la NASA. Líder en la investigación del cráter de Chicxulub.")
-
+        st.divider()
         st.subheader("Colombia: Diana Trujillo")
         st.write("Ingeniera aeroespacial (U. de Maryland) y líder fundamental en la misión Curiosity de la NASA.")
-        
+        st.divider()
         st.subheader("Costa Rica: Sandra Cauffman")
         st.write("Directora adjunta de la División de Ciencias de la Tierra en la NASA. Inspiración para toda Latinoamérica.")
-        
+        st.divider()
         st.subheader("EEUU: Nancy Roman")
         st.write("La 'Madre del Hubble', astrónoma clave en el desarrollo del telescopio espacial.")
-        
+        st.divider()
         st.subheader("EEUU: Katherine Johnson")
         st.write("Matemática cuya precisión hizo posibles los vuelos tripulados del Apolo.")
 
