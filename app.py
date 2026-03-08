@@ -44,6 +44,7 @@ with tabs[1]:
         st.link_button("Universidad de Chile", "https://www.conicyt.cl/mujeres-en-ciencia-y-tecnologia/mujeres-destacadas/premios-nacionales/maria-teresa-ruiz-gonzalez/")
         
         st.subheader("Ecuador")
+        st.image("Quito.jpg", width=200)
         st.write("""
         * **Historia:** Fundado en 1873, es uno de los observatorios más antiguos de América Latina.
         * **Ciencia:** Centro fundamental para la geodesia y el estudio de la atmósfera ecuatorial desde el centro del mundo.
