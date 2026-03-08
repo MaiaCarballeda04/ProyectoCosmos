@@ -117,10 +117,14 @@ with tabs[4]:
     st.info("Bienvenid@s a su primera mision espacial el Origen.")
 
     st.header("🪨De la roca a la vida")
-    st.write("Hace 4.600 millones de años, la Tierra era como una casa sin muebles. Los asteroides trajeron agua y aminoácidos. **Cada átomo de nuestro cuerpo tiene una historia que empezó en una piedra que viajó por el espacio.**")
+    st.write("Hace 4.600 millones de años, la Tierra era como una casa sin muebles. Los asteroides trajeron agua y aminoácidos. **Cada átomo de nuestro cuerpo tiene una historia que empezó en una piedra que viajó por el espacio.**
+    Todo lo que vemos, incluso nosotros mismos, está hecho de los mismos elementos que flotan allá afuera. No somos ajenos al espacio; somos parte de esa misma materia que viajó millones de años para que hoy estemos aquí. 
+    Cuidar nuestra Tierra es cuidar nuestro hogar en medio de esa inmensidad")
     st.divider()
     st.header("🔎Explorar es aprender")
-    st.write("Empezamos con el Sputnik 1. A veces las cosas salen mal, pero aprendemos del error. Hoy, las estaciones espaciales nos ayudan a fabricar medicinas y cultivar comida para vivir mejor en la Tierra.")
+    st.write("Empezamos con el Sputnik 1. A veces las cosas salen mal, pero aprendemos del error.
+    mpezamos con una pelota de metal (el Sputnik) que apenas enviaba un pitido. Nos equivocamos miles de veces, los cohetes estallaron, el dinero se perdió. Pero, ¿saben qué nos enseñó eso? Que fallar no es el fin, es parte del camino. Hoy, gracias a que no nos rendimos, desde el espacio creamos medicinas que salvan vidas aquí abajo. 
+    La ciencia es, ante todo, no rendirse cuando las cosas se ponen difíciles.")
     st.divider()
     st.header("💯Ciencia de Datos: Limpiando el 'ruido'")
     st.write("Como en una cancha de fútbol llena de gente gritando, el espacio tiene 'ruido'. La ciencia de datos es nuestro método para filtrar ese griterío y quedarnos solo con la 'voz' de la estrella. Pasamos de una mancha borrosa a una imagen nítida.")
@@ -135,10 +139,8 @@ with tabs[4]:
     st.header("🔭 Ciencia de Datos: Limpiando el ruido del universo")
     st.write("""
     ¿Cómo sacamos fotos claras desde tan lejos? Imaginen una cancha de fútbol llena de gente gritando; si un amigo les quiere hablar, no se entiende nada por el ruido.
-    
     En el espacio pasa lo mismo: hay polvo y luz estorbando. La **ciencia de datos** es como limpiar ese griterío para quedarnos solo con la "voz" de la estrella o el agujero negro. Es pasar de la mancha borrosa a la imagen nítida.
     """)
-with tabs[5]:
     st.header("👩‍🚀 Pioneras que conquistaron el Cosmos")
     st.write("Mujeres cuya tenacidad hizo posible la exploración espacial.")
     
