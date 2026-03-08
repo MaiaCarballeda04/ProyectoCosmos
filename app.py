@@ -149,7 +149,7 @@ with tabs[5]:
         st.subheader("Perú: Nataly Rojas Barnett")
         st.write("Ingeniera sanmarquina, referente actual en ciencia espacial e investigación aeroespacial.")
 
-        st.subheader("Mexico: Silvia Torres-Peimbert")
+        st.subheader("México: Silvia Torres-Peimbert")
         st.write("Primera mujer doctora en Astronomía en México y ex-Presidenta de la Unión Astronómica Internacional.")
         
         st.subheader("Rusia: Valentina Tereshkova")
@@ -164,6 +164,9 @@ with tabs[5]:
     with col2:
         st.subheader("Argentina: Noel de Castro")
         st.write("Referente argentina en el desarrollo espacial, clave en la formación de nuevas visiones científicas.")
+
+        st.subheader("Argentina: Adela E. Ringuelet")
+        st.write("Astrónoma pionera y cofundadora de la Asociación Argentina de Astronomía. Impulsó estudios sobre estrellas peculiares.")
         
         st.subheader("Colombia: Adriana Ocampo")
         st.write("Directora de Ciencia de la NASA. Líder en la investigación del cráter de Chicxulub.")
