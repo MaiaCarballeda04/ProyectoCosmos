@@ -13,7 +13,7 @@ with tabs[0]:
     st.header("Bienvenido a nuestra plataforma")
     st.write("Esta web busca que la ciencia este al alcance de todos.")
     st.info("Bienvenid@ Cosmonauta.")
-    st.image("Diseño.jpg", width=100 , height=300)
+    st.image("Academia.jpg", use_container_width=True)
 
 
 with tabs[1]:
