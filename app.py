@@ -21,12 +21,14 @@ with tabs[1]:
     with col1:
         st.subheader("Argentina")
         st.write("**Pablo de León:** Especialista en hábitats marcianos.")
+        st.image("Pablo.jpg", width=200)
         st.write("""
         * **Especialidad:** Ingeniero aeroespacial.
         * **Logros:** Diseñador principal de trajes espaciales y hábitats inflables para misiones a Marte en el Kennedy Space Center de la NASA.
         * **Impacto:** Líder del Laboratorio de Vuelo Espacial Humano de la Universidad de Dakota del Norte.
         """)
         st.write("**Mono Juan:** primer pionero. conoce un poco de su historia escuchando el siguiente audio de La Universidad Nacional de Cordoba")
+        st.image("Juan.jpg", width=200)
         st.audio("unciencia_podcast_mono_juan.mp3", format="mp3")
         st.link_button("Noticias CONAE", "https://www.conae.gov.ar")
         
