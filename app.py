@@ -117,9 +117,9 @@ with tabs[4]:
     st.info("Bienvenid@s a su primera mision espacial el Origen.")
 
     st.header("🪨De la roca a la vida")
-    st.write("Hace 4.600 millones de años, la Tierra era como una casa sin muebles. Los asteroides trajeron agua y aminoácidos. **Cada átomo de nuestro cuerpo tiene una historia que empezó en una piedra que viajó por el espacio.**
+    st.write("""Hace 4.600 millones de años, la Tierra era como una casa sin muebles. Los asteroides trajeron agua y aminoácidos. **Cada átomo de nuestro cuerpo tiene una historia que empezó en una piedra que viajó por el espacio.**
     Todo lo que vemos, incluso nosotros mismos, está hecho de los mismos elementos que flotan allá afuera. No somos ajenos al espacio; somos parte de esa misma materia que viajó millones de años para que hoy estemos aquí. 
-    Cuidar nuestra Tierra es cuidar nuestro hogar en medio de esa inmensidad")
+    Cuidar nuestra Tierra es cuidar nuestro hogar en medio de esa inmensidad""")
     st.divider()
     st.header("🔎Explorar es aprender")
     st.write("Empezamos con el Sputnik 1. A veces las cosas salen mal, pero aprendemos del error.
