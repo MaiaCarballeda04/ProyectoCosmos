@@ -122,12 +122,12 @@ with tabs[4]:
     Cuidar nuestra Tierra es cuidar nuestro hogar en medio de esa inmensidad""")
     st.divider()
     st.header("🔎Explorar es aprender")
-    st.write("Empezamos con el Sputnik 1. A veces las cosas salen mal, pero aprendemos del error.
+    st.write("""Empezamos con el Sputnik 1. A veces las cosas salen mal, pero aprendemos del error.
     mpezamos con una pelota de metal (el Sputnik) que apenas enviaba un pitido. Nos equivocamos miles de veces, los cohetes estallaron, el dinero se perdió. Pero, ¿saben qué nos enseñó eso? Que fallar no es el fin, es parte del camino. Hoy, gracias a que no nos rendimos, desde el espacio creamos medicinas que salvan vidas aquí abajo. 
-    La ciencia es, ante todo, no rendirse cuando las cosas se ponen difíciles.")
+    La ciencia es, ante todo, no rendirse cuando las cosas se ponen difíciles.""")
     st.divider()
     st.header("💯Ciencia de Datos: Limpiando el 'ruido'")
-    st.write("Como en una cancha de fútbol llena de gente gritando, el espacio tiene 'ruido'. La ciencia de datos es nuestro método para filtrar ese griterío y quedarnos solo con la 'voz' de la estrella. Pasamos de una mancha borrosa a una imagen nítida.")
+    st.write("""Como en una cancha de fútbol llena de gente gritando, el espacio tiene 'ruido'. La ciencia de datos es nuestro método para filtrar ese griterío y quedarnos solo con la 'voz' de la estrella. Pasamos de una mancha borrosa a una imagen nítida.""")
     st.divider()
     st.header("🚀 Explorando lo desconocido: Lecciones de la humanidad")
     st.write("""
