@@ -142,7 +142,7 @@ with tabs[4]:
     En el espacio pasa lo mismo: hay polvo y luz estorbando. La **ciencia de datos** es como limpiar ese griterío para quedarnos solo con la "voz" de la estrella o el agujero negro. Es pasar de la mancha borrosa a la imagen nítida.
     """)
 
-with tab[5]:
+with tabs[5]:
     st.header("👩‍🚀 Pioneras que conquistaron el Cosmos")
     st.write("Mujeres cuya tenacidad hizo posible la exploración espacial.")
     
