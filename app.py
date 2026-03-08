@@ -13,17 +13,8 @@ with tabs[0]:
     st.header("Bienvenido a nuestra plataforma")
     st.write("Esta web busca que la ciencia este al alcance de todos.")
     st.info("Bienvenid@ Cosmonauta.")
-    #st.image("Diseño.jpg", width=1000 , height=300)
-    st.markdown("""
-    <style>
-    .banner-img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-    </style>
-""", unsafe_allow_html=True)
+    st.image("Diseño.jpg", width=100 , height=300)
+
 
 with tabs[1]:
     st.header("Pioneros")
