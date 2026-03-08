@@ -135,35 +135,35 @@ with tabs[5]:
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("🇨🇱 María Teresa Ruiz")
+        st.subheader("Chile: María Teresa Ruiz")
         st.write("Primera mujer en recibir el Premio Nacional de Ciencias Exactas en Chile. Descubrió la primera enana café.")
         
-        st.subheader("🇵🇪 Nataly Rojas Barnett")
+        st.subheader("Perú: Nataly Rojas Barnett")
         st.write("Ingeniera sanmarquina, referente actual en ciencia espacial e investigación aeroespacial.")
         
-        st.subheader("🚀 Valentina Tereshkova")
+        st.subheader("Rusia: Valentina Tereshkova")
         st.write("La primera mujer en viajar al espacio (1963) a sus 26 años.")
         
-        st.subheader("💻 Margaret Hamilton")
+        st.subheader("EEUU: Margaret Hamilton")
         st.write("Directora de software del Apolo 11. Su código evitó que la misión lunar fallara.")
 
-        st.subheader("🇮🇳 Kalpana Chawla")
+        st.subheader("India: Kalpana Chawla")
         st.write("Primera mujer de origen indio en el espacio. Su valentía y su compromiso con la ciencia continúan inspirando a nuevas generaciones de ingenieros en todo el mundo.")
 
     with col2:
-        st.subheader("🇦🇷 Noel de Castro")
+        st.subheader("Argentina: Noel de Castro")
         st.write("Referente argentina en el desarrollo espacial, clave en la formación de nuevas visiones científicas.")
         
-        st.subheader("🇨🇴 Adriana Ocampo")
+        st.subheader("Colombia: Adriana Ocampo")
         st.write("Directora de Ciencia de la NASA. Líder en la investigación del cráter de Chicxulub.")
         
-        st.subheader("🇨🇷 Sandra Cauffman")
+        st.subheader("Costa Rica: Sandra Cauffman")
         st.write("Directora adjunta de la División de Ciencias de la Tierra en la NASA. Inspiración para toda Latinoamérica.")
         
-        st.subheader("⭐ Nancy Roman")
+        st.subheader("EEUU: Nancy Roman")
         st.write("La 'Madre del Hubble', astrónoma clave en el desarrollo del telescopio espacial.")
         
-        st.subheader("👩‍🔬 Katherine Johnson")
+        st.subheader("EEUU: Katherine Johnson")
         st.write("Matemática cuya precisión hizo posibles los vuelos tripulados del Apolo.")
 
     st.info("Estas mujeres demuestran que el espacio no tiene género, solo necesita talento y determinación.")
