@@ -141,6 +141,8 @@ with tabs[4]:
     ¿Cómo sacamos fotos claras desde tan lejos? Imaginen una cancha de fútbol llena de gente gritando; si un amigo les quiere hablar, no se entiende nada por el ruido.
     En el espacio pasa lo mismo: hay polvo y luz estorbando. La **ciencia de datos** es como limpiar ese griterío para quedarnos solo con la "voz" de la estrella o el agujero negro. Es pasar de la mancha borrosa a la imagen nítida.
     """)
+
+with tab[5]:
     st.header("👩‍🚀 Pioneras que conquistaron el Cosmos")
     st.write("Mujeres cuya tenacidad hizo posible la exploración espacial.")
     
