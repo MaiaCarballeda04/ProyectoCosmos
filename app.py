@@ -27,10 +27,11 @@ with tabs[1]:
         * **Logros:** Diseñador principal de trajes espaciales y hábitats inflables para misiones a Marte en el Kennedy Space Center de la NASA.
         * **Impacto:** Líder del Laboratorio de Vuelo Espacial Humano de la Universidad de Dakota del Norte.
         """)
+        st.link_button("Noticias CONAE", "https://www.conae.gov.ar")
         st.write("**Mono Juan:** primer pionero. conoce un poco de su historia escuchando el siguiente audio de La Universidad Nacional de Cordoba")
         st.image("Juan.jpg", width=200)
         st.audio("unciencia_podcast_mono_juan.mp3", format="mp3")
-        st.link_button("Noticias CONAE", "https://www.conae.gov.ar")
+        st.link_button("Mono Juan","https://unciencia.unc.edu.ar/podcasts/juan-el-primer-astronauta-argentino-2/#:~:text=El%2023%20de%20diciembre%20de,espacio%20utilizando%20tecnolog%C3%ADa%20aeroespacial%20propia")
         
 
         st.subheader("Chile: María Teresa Ruiz")
