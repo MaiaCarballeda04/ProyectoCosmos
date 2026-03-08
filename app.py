@@ -7,7 +7,7 @@ st.title("🚀 Cosmos: Donde el cielo no es el límite, sino el comienzo")
 st.markdown("### Proyecto Bootcamp de Into Space - Equipo 2")
 
 # Navegación por pestañas
-tabs = st.tabs(["Inicio", "Pioneros", "Sonificación y Táctil", "Derecho Espacial", "Astronomia"])
+tabs = st.tabs(["Inicio", "Pioneros", "Sonificación y Táctil", "Derecho Espacial", "Astronomia","Pioneras"])
 
 with tabs[0]:
     st.header("Bienvenido a nuestra plataforma")
@@ -128,4 +128,43 @@ with tabs[4]:
     
     En el espacio pasa lo mismo: hay polvo y luz estorbando. La **ciencia de datos** es como limpiar ese griterío para quedarnos solo con la "voz" de la estrella o el agujero negro. Es pasar de la mancha borrosa a la imagen nítida.
     """)
+with tabs[5]:
+    st.header("👩‍🚀 Pioneras que conquistaron el Cosmos")
+    st.write("Mujeres cuya tenacidad hizo posible la exploración espacial.")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.subheader("🇨🇱 María Teresa Ruiz")
+        st.write("Primera mujer en recibir el Premio Nacional de Ciencias Exactas en Chile. Descubrió la primera enana café.")
+        
+        st.subheader("🇵🇪 Nataly Rojas Barnett")
+        st.write("Ingeniera sanmarquina, referente actual en ciencia espacial e investigación aeroespacial.")
+        
+        st.subheader("🚀 Valentina Tereshkova")
+        st.write("La primera mujer en viajar al espacio (1963) a sus 26 años.")
+        
+        st.subheader("💻 Margaret Hamilton")
+        st.write("Directora de software del Apolo 11. Su código evitó que la misión lunar fallara.")
+
+        st.subheader("🇮🇳 Kalpana Chawla")
+        st.write("Primera mujer de origen indio en el espacio. Su valentía y su compromiso con la ciencia continúan inspirando a nuevas generaciones de ingenieros en todo el mundo.")
+
+    with col2:
+        st.subheader("🇦🇷 Noel de Castro")
+        st.write("Referente argentina en el desarrollo espacial, clave en la formación de nuevas visiones científicas.")
+        
+        st.subheader("🇨🇴 Adriana Ocampo")
+        st.write("Directora de Ciencia de la NASA. Líder en la investigación del cráter de Chicxulub.")
+        
+        st.subheader("🇨🇷 Sandra Cauffman")
+        st.write("Directora adjunta de la División de Ciencias de la Tierra en la NASA. Inspiración para toda Latinoamérica.")
+        
+        st.subheader("⭐ Nancy Roman")
+        st.write("La 'Madre del Hubble', astrónoma clave en el desarrollo del telescopio espacial.")
+        
+        st.subheader("👩‍🔬 Katherine Johnson")
+        st.write("Matemática cuya precisión hizo posibles los vuelos tripulados del Apolo.")
+
+    st.info("Estas mujeres demuestran que el espacio no tiene género, solo necesita talento y determinación.")
     
