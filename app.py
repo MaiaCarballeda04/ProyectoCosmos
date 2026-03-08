@@ -148,6 +148,9 @@ with tabs[5]:
         
         st.subheader("Perú: Nataly Rojas Barnett")
         st.write("Ingeniera sanmarquina, referente actual en ciencia espacial e investigación aeroespacial.")
+
+        st.subheader("Mexico: Silvia Torres-Peimbert")
+        st.write("Primera mujer doctora en Astronomía en México y ex-Presidenta de la Unión Astronómica Internacional.")
         
         st.subheader("Rusia: Valentina Tereshkova")
         st.write("La primera mujer en viajar al espacio (1963) a sus 26 años.")
@@ -164,6 +167,9 @@ with tabs[5]:
         
         st.subheader("Colombia: Adriana Ocampo")
         st.write("Directora de Ciencia de la NASA. Líder en la investigación del cráter de Chicxulub.")
+
+        st.subheader("Colombia: Diana Trujillo")
+        st.write("Ingeniera aeroespacial (U. de Maryland) y líder fundamental en la misión Curiosity de la NASA.")
         
         st.subheader("Costa Rica: Sandra Cauffman")
         st.write("Directora adjunta de la División de Ciencias de la Tierra en la NASA. Inspiración para toda Latinoamérica.")
